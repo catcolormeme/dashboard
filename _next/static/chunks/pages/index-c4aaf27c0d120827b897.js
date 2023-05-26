@@ -72,7 +72,7 @@
                                         connectbtnDisabled: !1,
                                         Connected: !1,
                                         connectModal: "none",
-                                        TokenContractAddress: "0x8F9B6a25e915e44B212C6853Fb7b1Ed2cE4e702b",
+                                        TokenContractAddress: "0xfb1b29e497BCE8B268E488d2D6d3db8DF286777E",
                                         RewardContractAddress: "0x3c95ff077d8068c8d7eb631aef308df29e510303",
                                         TokenName: null,
                                         TokenSymbol: null,
@@ -224,7 +224,7 @@
                                                             case 80:
                                                                 return (
                                                                     (A = e.sent),
-                                                                    (M = A.result["0x8F9B6a25e915e44B212C6853Fb7b1Ed2cE4e702b"]),
+                                                                    (M = A.result["0xfb1b29e497BCE8B268E488d2D6d3db8DF286777E"]),
                                                                     (P = 0),
                                                                     M.holders.map(function (e, a) {
                                                                         P += parseFloat(e.percent);
@@ -261,7 +261,7 @@
                                                                     (e.prev = 109),
                                                                     (e.next = 112),
                                                                     s.pcsContract.methods
-                                                                        .getAmountsOut("1000000000", ["0x8F9B6a25e915e44B212C6853Fb7b1Ed2cE4e702b", "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"])
+                                                                        .getAmountsOut("1000000000", ["0xfb1b29e497BCE8B268E488d2D6d3db8DF286777E", "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c", "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"])
                                                                         .call()
                                                                 );
                                                             case 112:
